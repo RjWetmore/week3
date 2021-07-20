@@ -1,0 +1,113 @@
+
+*   {
+    box-sizing: border-box;    
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+
+}
+[class*="col-"] {
+float: right;
+padding: 15px;
+}
+
+html {
+font-family:"fantasy", sans-serif;
+}
+.header{
+background-color: burlywood;
+color: cadetblue;
+padding: 15px;
+}
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+/*css code for my links on the right of the page*/
+.navbar a {
+    background-color: burlywood;
+    float: none;
+    display: block;
+    color: cadetblue;
+    text-align: left;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    background-color: cadetblue;
+    color: burlywood;
+}
+.aside {
+background-color: burlywood;
+padding: 15px;
+color: cadetblue;
+text-align: center;
+font-size: 14px;
+box-shadow: 0 1px 3px rgba(0,0,0,0,12), 0 1px 2px rgba(0,0,0,0,24);
+}
+.footer {
+background-color: burlywood;
+color: cadetblue;
+text-align: center;
+font-size: 12px;
+padding: 15px;
+}
+/*width for phone*/
+[class*="col-"]{
+width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /*width for tablets*/
+ 
+    .col-s-1 {width: 50%;}
+
+    .col-s-2 {width: 50%;}
+ 
+    .col-s-3 {width: 75%;}
+  
+    .col-s-4 {width: 100%;}
+    }
+    @media only screen and (min-width: 768px) {
+    /*width For desktop: */
+   
+    .col-1 {width: 35%;}
+    
+    .col-2 {width: 40%;}
+   
+    .col-3 {width: 75%;}
+    
+    .col-4 {width: 100%;}
+    }
+    @media screen and (max-width:880px){
+        .navbar a {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 40%;
+            padding: 8px 8px;
+        }
+    }
+img {
+    border: 5px solid #000;
+    width: 23%;
+    height: auto;
+    float: left;
+    
+}
+#img1 {
+    border: 5px solid #000;
+    width: 27%;
+    height: auto;
+    float: left;
+}
+
+#ricky {
+    float: none;
+}
+
+h3 {
+    text-align: center;
+}
