@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+<title>Ryan Wetmore</title>
+<!--Ryan Wetmore 7/16/2021-->
+
+   <link rel="stylesheet" href="week_10_style_sheet.css"> 
+    
+</head>
+
+ <body>
+<section class="header">
+    <!--main name of the page-->
+<H1>Give Us Feed Back</H1>
+</section>
+<section class="row">
+    <section class="col-1 col-s-1 menu">
+     <ul>
+         <!--links to each page-->
+         <nav class="navbar">
+            <a href="index.html"> Home</a>
+            <a href="shop_rick_roll.html"> Shop Rick Roll</a>
+            <a href="Feed_back_page.html">Give Us Your Feed Back</a>
+            <a href="site_plan.html"> Site Plan</a>
+        </nav>
+    </section>
+    <!--when you click BUY NOW!!! it sends you to laura franks email-->
+    <form action="mailto:laura.franks@nscc.ca?subject=Form%20our%20Website" method="POST"
+    enctype="text/plain" class="form">
+    <!--code for a table you fill out to tell us how we did and tell us feed back-->
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <label for="rate">Rate Us Out Of Ten</label><br>
+        <label for="text">0</label>
+        <input type="range" id="a" name="a" value="5"> 
+        <label for="text">10</label><br><br>
+        <label for="ccard">What did you like about us?</label><br>
+        <textarea name="message" rows="10" cols="30" id="textbox"></textarea><br><br>
+        <label for="message2">What would you like to see change?</label><br>
+        <textarea name="message" rows="10" cols="30" id="textbox"></textarea><br><br>
+        <label for="shipping">Did you have any problems with shipping?</label><br>
+        <textarea name="message" rows="10" cols="30" id="textbox"></textarea><br><br>
+        <label for="email">Your Email So we can respond</label><br>
+        <input type="text" id="email" name="email" value=""><br><br>
+        <label for="size">Your Size</label>
+        <select id="size" name="sizes">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+        </select><br><br>
+       <input type="submit" value="Send">
+      </form> 
+    
+      
+ </body>
+ </html>
